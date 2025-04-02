@@ -1,10 +1,12 @@
 package br.com.fiap.cadastro.model;
 
+import java.time.LocalDate;
+
 public class Pessoa {
 
     private String nome;
     private String celular;
-    private int idade;
+    private LocalDate nascimento;
     private String rg;
     private String cpf;
 
@@ -18,8 +20,15 @@ public class Pessoa {
     public Pessoa(String nome, String celular, int idade, String rg, String cpf) {
         this.celular = celular;
         this.cpf = cpf;
-        this.idade = idade;
+        //this.idade = idade;
         this.nome = nome;
         this.rg = rg;
+        this.nascimento = LocalDate.of(1990, 4, 2);
+    }
+
+    public int getIdade() {
+        LocalDate atual = LocalDate.now();
+        int idade = atual.getYear() - nascimento.getYear();
+        return idade;
     }
 }
