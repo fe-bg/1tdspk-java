@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1tdspk-java.iml" filepath="$PROJECT_DIR$/1tdspk-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CadastroPessoa/CadastroPessoa.iml" filepath="$PROJECT_DIR$/CadastroPessoa/CadastroPessoa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrimeiroProjeto/PrimeiroProjeto.iml" filepath="$PROJECT_DIR$/PrimeiroProjeto/PrimeiroProjeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetoEnquete/ProjetoEnquete.iml" filepath="$PROJECT_DIR$/ProjetoEnquete/ProjetoEnquete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SegundoProjeto/SegundoProjeto.iml" filepath="$PROJECT_DIR$/SegundoProjeto/SegundoProjeto.iml" />
+    </modules>
+  </component>
+</project>
