@@ -6,6 +6,7 @@ public class Pessoa {
 
     private String nome;
     private String celular;
+    //private int idade;
     private LocalDate nascimento;
     private String rg;
     private String cpf;
@@ -14,7 +15,8 @@ public class Pessoa {
     public Pessoa() {
         //posso ter instruções aqui dentro do construtor
         Endereco matriz = new Endereco();
-        matriz.logradouro = "Av Lins de Vasconcelos";
+        //matriz.logradouro = "Av Lins de Vasconcelos";
+        matriz.setLogradouro("Av Lins de Vasconcelos");
     }
 
     public Pessoa(String nome, String celular, int idade, String rg, String cpf) {
