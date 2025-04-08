@@ -10,11 +10,15 @@ public class Pessoa {
     private String rg;
     private String cpf;
 
+    public Endereco(){
+
+    }
+
     //exemplo de construtor default (vazio de parâmetros)
     public Pessoa() {
         //posso ter instruções aqui dentro do construtor
         Endereco matriz = new Endereco();
-        matriz.logradouro = "Av Lins de Vasconcelos";
+        matriz.setLogradouro() = "Av Lins de Vasconcelos";
     }
 
     public Pessoa(String nome, String celular, int idade, String rg, String cpf) {
