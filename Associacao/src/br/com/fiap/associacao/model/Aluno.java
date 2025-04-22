@@ -2,6 +2,11 @@ package br.com.fiap.associacao.model;
 
 public class Aluno {
 
+    //Substitua o atributo nome por uma associação com o objeto Pessoa.
+    //Imagine que vc ja esta usando a classe Aluno com esses construtores
+    //e os métodos. Vc não deverá apagar nenhum método e nenhum construtor,
+    //acrescente métodos e construtor(es) para esse novo atributo e altere
+    //os métodos que serão impactados por essa mudança.
     private String nome;
     private String turma;
     private int rm;
