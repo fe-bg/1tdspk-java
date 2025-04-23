@@ -7,13 +7,18 @@ public class Aluno {
     //e os métodos. Vc não deverá apagar nenhum método e nenhum construtor,
     //acrescente métodos e construtor(es) para esse novo atributo e altere
     //os métodos que serão impactados por essa mudança.
-    private String nome;
+    //private String nome;
+
+    private Pessoa pessoa;
     private String turma;
     private int rm;
     private Curso curso;
 
     public Aluno(String nome, int rm) {
-        this.nome = nome;
+        //this.nome = nome;
+        this.pessoa = new Pessoa();
+        this.pessoa.setNome(nome);
+
         this.rm = rm;
     }
 
@@ -23,11 +28,11 @@ public class Aluno {
     }
 
     public String getNome() {
-        return nome;
+        return pessoa.getNome();
     }
 
     public void setNome(String nome) {
-        this.nome = nome;
+        this.pessoa.setNome(nome);
     }
 
     public int getRm() {
